@@ -15,20 +15,26 @@
 - return
 
 # 04 Java Arrays
-- Introduction to Arrays (data structure)
-- Declarations of arrays
-- Creation of arrays
-- Accessing arrays
-- Size of arrays
-- Array initialization {1,2,3,4}
-- int, long, float, double, String default values
-- Print all values
-- Arrays.toSting()
-- fill random numbers in array
-- array sorting
-- Multi-dimensional array
+- Methods
+  - Method solved problems
+  - Method return types
+  - void methods
+  - static methods
+- Arrays 
+  - Introduction to Arrays (data structure)
+  - Declarations of arrays
+  - Creation of arrays
+  - Accessing arrays
+  - Size of arrays
+  - Array initialization {1,2,3,4}
+  - int, long, float, double, String default values
+  - Print all values
+  - Arrays.toSting()
+  - fill random numbers in array
+  - array sorting
+  - Multi-dimensional array
 
 - Challenges
   - find minimum number from entered number
-  - 
+  - davam edim 
 
