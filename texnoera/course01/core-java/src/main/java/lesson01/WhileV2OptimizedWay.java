@@ -1,4 +1,4 @@
-package loop;
+package lesson01;
 
 public class WhileV2OptimizedWay {
 

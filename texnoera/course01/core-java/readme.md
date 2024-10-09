@@ -1,15 +1,15 @@
 # 03 Loops in Java
 
 - loops introduction
-- for loop
-  - for loop syntax
-  - for loop generation
+- for lesson01
+  - for lesson01 syntax
+  - for lesson01 generation
   - first 100 num sum
   - multiplication table
-  - nested for loop
+  - nested for lesson01
   - advanced multiplication table
-- while loop
-- do while loop
+- while lesson01
+- do while lesson01
 - break
 - continue
 - return

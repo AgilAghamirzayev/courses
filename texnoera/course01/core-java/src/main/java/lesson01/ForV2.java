@@ -1,11 +1,10 @@
-package loop;
+package lesson01;
 
-public class ForV1 {
+public class ForV2 {
 
   public static void main(String[] args) {
 
-    int i = 0;
-    for(   ; i < 10  ;   ) {
+    for( int i = 0  ; i < 10  ;   ) {
       System.out.println(i);
       i++;
     }

@@ -1,14 +1,12 @@
-package loop;
+package lesson01;
 
-public class WhileV1 {
+public class ForV4 {
 
   public static void main(String[] args) {
 
     int sum = 0;
-    int i = 0;
-    while (i <= 100) {
-      sum += i;
-      i++;
+    for(int i = 1; i < 100; i++) {
+       sum += i;
     }
 
     System.out.println(sum);
