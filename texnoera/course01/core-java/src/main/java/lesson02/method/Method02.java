@@ -1,8 +1,8 @@
-package lesson02;
+package lesson02.method;
 
 import java.util.Scanner;
 
-public class Method01 {
+public class Method02 {
 
   public static void main(String[] args) {
 
@@ -19,7 +19,11 @@ public class Method01 {
 
     System.out.println(sum);
 
+  }
 
+  private void sumAndPrint(int a, int b) {
+    int sum = a + b;
+    System.out.println(sum);
   }
 
 }

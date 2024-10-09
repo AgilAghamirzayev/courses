@@ -1,13 +1,12 @@
-package lesson02;
+package lesson02.method;
 
 import java.util.Scanner;
 
-public class Method07 {
+public class Method06 {
 
   public static void main(String[] args) {
 
     while (true) {
-      printMessage();
       Scanner scanner = new Scanner(System.in);
       System.out.print("Enter a number: ");
 
@@ -23,6 +22,7 @@ public class Method07 {
       print(multiply);
       System.out.println();
     }
+
 
   }
 
@@ -53,22 +53,5 @@ public class Method07 {
     System.out.println("Result: " + result);
   }
 
-  private static void printMessage() {
-    String message = """
-        
-        Welcome to the Calculator!
-        
-        Choose an operation, and enter two numbers:
-        
-        1. Addition
-        2. Subtraction
-        3. Multiplication
-        4. Division
-        5. Exit
-        
-        """;
-
-    System.out.println(message);
-  }
 
 }
