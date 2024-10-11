@@ -35,6 +35,27 @@
   - Multi-dimensional array
 
 - Challenges
-  - find minimum number from entered number
-  - davam edim 
+  - Find minimum number from entered number
+  - Create calculator app (User can choose operator and enter numbers)
+  - [TASK](src/main/java/lesson02/task.md)
 
+# 05 String, stack, heap, random number 
+
+- Memory management introduction
+  - Stack
+  - Heap
+- String
+  - String methods
+  - String immutable
+  - String memory (string pool)
+  - StringBuilder
+  - StringBuffer
+- Ternary operator
+- Random number
+  - Random class
+  - Math.random()
+- Method
+  - Parameter passing
+    - primitive
+    - array
+    - object (future)
