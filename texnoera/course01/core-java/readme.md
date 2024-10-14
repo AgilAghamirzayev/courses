@@ -48,6 +48,8 @@
   - String methods
   - String immutable
   - String memory (string pool)
+  - String casting
+  - 
   - StringBuilder
   - StringBuffer
 - Ternary operator
@@ -59,3 +61,11 @@
     - primitive
     - array
     - object (future)
+
+# 06 Java String, Challenge
+- Java String Casting
+- String Builder
+- String Buffer
+- String problems
+- [TASK](src/main/java/lesson04/task.md)
+
