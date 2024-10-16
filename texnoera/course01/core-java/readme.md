@@ -69,3 +69,31 @@
 - String problems
 - [TASK](src/main/java/lesson04/task.md)
 
+# 07 OOP Part 1
+- What is object?
+- Principles of OOP
+  - Abstraction
+  - Encapsulation
+  - Inheritance
+  - Polymorphism
+    - Specializations
+    - Generalization
+- Object and class
+- UML
+- Box class 
+  - Set variables with .
+  - Volume finding
+  - setDimension(double w, double h, double d)
+  - constructor
+    - default constructor
+    - parametrized constructor w,d,h
+    - this. keyword 
+    - parametrized constructor with this
+    - constructor overloading
+      - all arguments
+      - no arguments but set -1 to all values
+      - sen length
+        - width = height = depth = length
+- static variables
+- final variables
+- static methods
