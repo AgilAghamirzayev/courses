@@ -13,6 +13,7 @@ public class CreditCard {
   public CreditCard(String number, int balance, Customer owner) {
     this(number, balance);
     this.owner = owner;
+    owner.setCustomer(this);
   }
 
   public void setOwner(Customer owner) {
