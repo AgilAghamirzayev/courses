@@ -84,6 +84,8 @@
   - Set variables with .
   - Volume finding
   - setDimension(double w, double h, double d)
+  
+# 08 OOP Part 2:
   - constructor
     - default constructor
     - parametrized constructor w,d,h
@@ -97,3 +99,13 @@
 - static variables
 - final variables
 - static methods
+
+# 09 OOP PART 3:
+
+- cass association
+  - one-to-one association
+  - one-to-many association
+  - many-to-one association
+  - many-to-many association
+  - bidirectional association (2)
+  - unidirectional association (1)
