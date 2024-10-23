@@ -109,3 +109,16 @@
   - many-to-many association
   - bidirectional association (2)
   - unidirectional association (1)
+  - this keyword's use cases
+
+# 10 OOP PART 4: 
+
+- class, instance, local variables 
+  - [What are class variables, instance variables and local variables in Java?](https://www.tutorialspoint.com/what-are-class-variables-instance-variables-and-local-variables-in-java)
+- static variable
+- packets
+- encapsulation
+  - getter
+  - setter
+
+# 11 OOP PART 5:
