@@ -9,10 +9,10 @@ public class Test {
     StaticClass sc2 = new StaticClass();
     System.out.println(sc2.count); // 1
 
-//    StaticClass.incrementCount(); // 3
-//    System.out.println(StaticClass.count);
+    StaticClass.incrementCount(); // 3
+    System.out.println(StaticClass.count);
 
-    // What will be print? write in slack
+//     What will be print? write in slack
 
   }
 }
