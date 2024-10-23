@@ -4,7 +4,7 @@ public class StaticClass {
   public static int count = 1;
 
   public static void incrementCount() {
-    count = count + 1;
+    count++;
   }
 
 }
