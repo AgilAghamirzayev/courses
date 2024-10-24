@@ -122,3 +122,26 @@
   - setter
 
 # 11 OOP PART 5:
+
+
+![img.png](img.png)
+# Additional
+- Classes
+  - Concrete class
+  - Abstract class
+  - Super class and Subclass
+  - Object class
+  - Nested class
+    - Inner class (Non-static nested class)
+    - Anonymous inner class
+    - Member inner class
+    - Local inner class
+    - Static nested class / static class
+- Generic classes
+- POJO classes
+- Bean classes
+- Enum classes
+- Final classes
+- Singleton classes
+- Immutable classes
+- Wrapper classes
