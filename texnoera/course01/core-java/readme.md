@@ -132,7 +132,6 @@
     - Multilevel inheritance
     - Hierarchical inheritance
     - Why Java doesn’t support multiple inheritance directly
-    - Protected
   - How Inheritance Works Under the Hood
     - Memory allocation for parent and child classes
     - Method lookup and method overriding
@@ -152,6 +151,45 @@
     - Composition vs Inheritance
     - When and when not to use inheritance
     - Avoiding deep inheritance hierarchies
+
+- Access modifiers
+  - public
+  - private
+  - protected
+  - default
+
+# 11 OOP PART 6:
+- Polymorphism
+  - Compile time polymorphism -> **overloading**
+    The compiler determines which method to call based on the type and number of arguments passed to the method.
+  - Runtime polymorphism -> **overriding**
+  - Dynamic Method Dispatch
+    When a method is called on an object, the runtime system determines which implementation of the method to use based on the actual type of the object, not just its declared type.
+    Association, composition, and aggregation are all types of relationships between classes in object-oriented programming
+
+- Association (Has a)
+
+  Association, in general terms, refers to the relationship between any two entities. Association in java is the relationship that can be established between any two classes.
+
+  These relationships can be of four types:
+
+  * One-to-One relation (Email -> User Account)
+  * One-to-many relation (Country -> City)
+  * Many-to-one relation (Order -> Customer)
+  * Many-to-many relation (Book -> Author)
+
+
+- Aggregation
+  * has a
+  * weak association
+    Aggregation represents a weak relationship between two classes where one class (the whole) contains a reference to the other class (the part), but the part can exist independently of the whole.
+
+- Composition
+  - part-of
+  - strong association
+  - child does not exist independently of its parent
+    Composition represents a strong relationship between two classes where one class (the composite) contains the other class (the component). The component cannot exist independently of the composite, and any changes to the composite will affect the component.
+
 - Object class
   - Default extends
   - Methods
@@ -159,14 +197,10 @@
       - == and equals
     - hashcode
     - toString
-    - 
-- Access modifiers
-  - public
-  - private
-  - protected
-  - default
+    -
 - is-a relationship
 - has-a relationship
+- POJO (Plain Old Java Object)
 
 # Additional
 - Classes
