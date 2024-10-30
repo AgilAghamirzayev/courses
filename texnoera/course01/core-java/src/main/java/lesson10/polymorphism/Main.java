@@ -8,7 +8,5 @@ public class Main {
     Cylinder cylinder = new Cylinder(2, 5);
     System.out.println(cylinder);
 
-
-
   }
 }
