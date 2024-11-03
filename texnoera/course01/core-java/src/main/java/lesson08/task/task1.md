@@ -24,11 +24,12 @@ Improve the project:
     - The only condition for creating a new family is the presence of two parents, with the parents being referred to the current new family and the family being created with an empty array of children.
 - Refactor the `Human` class, while taking the `Family` structure into account:
     - Remove all information duplicated in the Family class from Human (Human should only keep the information that describes itself)
-    - add the `family` (type `Family`) field (теперь оно хранит всю информацию о семейных данных человека)
+    - add the `family` (type `Family`) field (now it stores all information about a person’s family data)
     - add necessary getters, setters, constructors; remove irrelevant designers and methods; make refactoring of the  ` to welcome the favourite `, ` to describe the favourite `, ` to feed ` methods
     - refactor the `toString()` method. It should output info in the following format:
       `Human{name='Name', surname='Surname', year=1, iq=1, schedule=[[day, task], [day_2, task_2]]}`
-    - Add the following methods in `Family`:
+  
+- Add the following methods in `Family`:
     - add a child - `addChild` (accepts the `Human` type and adds it to the children array; adds a link to the current family to the child)
     - delete a child -  `deleteChild` (accepts and array index and deltes the following element; returns a boolean value - was the element deleted or not)
     - get the amount of family members - `countFamily` (the parents in the family never change. If the parents do change - it's a different family)
@@ -47,7 +48,7 @@ Methods should not only add/remove items to the `Human` array, but also make the
     - The non-static block should display information that a new object is created (specify the object type).
 
 
-#### Литература:
+#### Literature:
 - [Encapsulation. Getters/setters](https://www.geeksforgeeks.org/encapsulation-in-java/)
 - [Method Overloading(https://beginnersbook.com/2013/05/method-overloading/)
 - [Overriding equals() and hashcode()](https://www.mkyong.com/java/java-how-to-overrides-equals-and-hashcode/)
