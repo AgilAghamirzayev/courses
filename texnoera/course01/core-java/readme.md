@@ -178,6 +178,7 @@
   * Many-to-one relation (Order -> Customer)
   * Many-to-many relation (Book -> Author)
 
+# 12 OOP PART 7:
 
 - Aggregation
   * has a
@@ -201,6 +202,16 @@
 - is-a relationship
 - has-a relationship
 - POJO (Plain Old Java Object)
+
+
+# 13 OOP PART 8:
+
+- Abstraction
+  - Abstract class
+  - Interface
+
+- Enum
+
 
 # Additional
 - Classes
