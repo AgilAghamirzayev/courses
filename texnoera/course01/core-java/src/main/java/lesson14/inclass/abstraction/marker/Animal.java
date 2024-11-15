@@ -1,4 +1,4 @@
 package lesson14.inclass.abstraction.marker;
 
-public class A {
+public class Animal {
 }

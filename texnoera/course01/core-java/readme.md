@@ -203,15 +203,40 @@
 - has-a relationship
 - POJO (Plain Old Java Object)
 
+# 13 Test
 
-# 13 OOP PART 8:
+# 14 OOP PART 8:
 
 - Abstraction
   - Abstract class
   - Interface
 
+# 15 OOP PART 9:
 - Enum
-
+  - .values()
+  - https://docs.oracle.com/javase/1.5.0/docs/guide/language/enums.html
+- Java Collection
+  - List
+- Wrapper classes
+  - https://www.geeksforgeeks.org/wrapper-classes-java/
+  - valueOf()
+  - Converting wrapper to primitive
+  - Autoboxing, Unboxing
+  - Immutable
+  - Integer cache
+  - performance problems with wrapper type
+- Immutable class
+  - The class is declared as final, so it cannot be subclassed.
+  - All fields are private and final.
+  - No setter methods.
+  - The constructor initializes all fields.
+  - If the class has mutable fields, ensure defensive copies are made when returning or accepting them.
+- Record
+  - Constructor
+  - extends
+  - Record abstract class
+- var
+  - limitation (cannot be local, method parameter, null, without assignment)
 
 # Additional
 - Classes
