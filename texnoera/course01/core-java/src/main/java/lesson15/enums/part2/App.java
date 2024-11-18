@@ -10,6 +10,11 @@ public class App {
     Task task2 = new Task("Kotlin", COMPLETED);
     Task task3 = new Task("Go", IN_PROGRESS);
 
+
+    System.out.println(DO.hashCode());
+    System.out.println(COMPLETED.hashCode());
+    System.out.println(IN_PROGRESS.hashCode());
+
     printTaskStatus(task1, task2, task3);
   }
 

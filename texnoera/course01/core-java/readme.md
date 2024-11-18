@@ -236,7 +236,7 @@
   - extends
   - Record abstract class
 - var
-  - limitation (cannot be local, method parameter, null, without assignment)
+  - limitation (cannot be global, method parameter, null, without assignment)
 
 # Additional
 - Classes
