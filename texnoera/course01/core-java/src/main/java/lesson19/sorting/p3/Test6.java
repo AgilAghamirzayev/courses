@@ -22,7 +22,7 @@ public class Test6 {
 
     persons.sort(Comparator.comparing(Person::getName)
         .thenComparing(Person::getLastName)
-        .thenComparing(Person::getAge));
+        .thenComparing(p -> p.getAge() * (-1)));
 
     System.out.println("After sorting: ");
     persons.forEach(System.out::println);
