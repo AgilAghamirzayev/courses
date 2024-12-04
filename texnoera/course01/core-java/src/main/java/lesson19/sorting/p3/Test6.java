@@ -21,11 +21,12 @@ public class Test6 {
     persons.forEach(System.out::println);
 
     persons.sort(Comparator.comparing(Person::getName)
-        .thenComparing(Person::getLastName)
+        .thenComparing(Person::getLastName).reversed()
         .thenComparing(p -> p.getAge() * (-1)));
 
     System.out.println("After sorting: ");
     persons.forEach(System.out::println);
+
 
   }
 }

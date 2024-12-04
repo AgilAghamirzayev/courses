@@ -2,6 +2,7 @@ package lesson19.sorting.p2;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class Test {
@@ -16,7 +17,7 @@ public class Test {
     System.out.println("Before sorting: ");
     persons.forEach(System.out::println);
 
-    Collections.sort(persons);
+    Collections.sort(persons, Comparator.comparing(Person::getName));
 
     System.out.println("After sorting: ");
     persons.forEach(System.out::println);

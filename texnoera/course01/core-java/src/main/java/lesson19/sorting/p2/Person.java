@@ -2,7 +2,7 @@ package lesson19.sorting.p2;
 
 import java.util.Objects;
 
-public class Person implements Comparable<Person> {
+public class Person {
 
   private String name;
   private String lastName;
@@ -60,10 +60,10 @@ public class Person implements Comparable<Person> {
         ", age=" + age +
         '}';
   }
-
-  @Override
-  public int compareTo(Person o) {
-    return this.name.compareTo(o.name);
-  }
+//
+//  @Override
+//  public int compareTo(Person o) {
+//    return this.name.compareTo(o.name);
+//  }
 
 }
