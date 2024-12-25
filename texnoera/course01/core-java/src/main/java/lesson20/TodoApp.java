@@ -1,11 +1,21 @@
 package lesson20;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
 import java.util.*;
 
 public class TodoApp {
-    private static final Scanner scanner = new Scanner(System.in);
+
+  private static final String ACCOUNTS_FILE = "accounts.dat";
+  private static final String TASKS_FILE = "tasks.dat";
+
+  private static final Scanner scanner = new Scanner(System.in);
     private static final Map<String, String> accounts = new HashMap<>(); // Email -> Password
     private static final Map<String, List<Task>> tasks = new HashMap<>(); // Email -> Task List
     private static String loggedInUser = null;
@@ -192,19 +202,52 @@ public class TodoApp {
         return true;
     }
 
-    private static void loadAccounts() {
-        // Implement file loading for accounts
-    }
 
-    private static void saveAccounts() {
-        // Implement file saving for accounts
-    }
 
-    private static void loadTasks() {
-        // Implement file loading for tasks
+  private static void loadAccounts() {
+    try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(ACCOUNTS_FILE))) {
+      Object loadedAccounts = ois.readObject();
+      if (loadedAccounts instanceof Map) {
+        accounts.putAll((Map<String, String>) loadedAccounts);
+      }
+      System.out.println("Accounts loaded successfully.");
+    } catch (FileNotFoundException e) {
+      System.out.println("No accounts file found. Starting with an empty list.");
+    } catch (IOException | ClassNotFoundException e) {
+      System.out.println("Failed to load accounts: " + e.getMessage());
     }
+  }
 
-    private static void saveTasks() {
-        // Implement file saving for tasks
+  private static void saveAccounts() {
+    try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(ACCOUNTS_FILE))) {
+      oos.writeObject(accounts);
+      System.out.println("Accounts saved successfully.");
+    } catch (IOException e) {
+      System.out.println("Failed to save accounts: " + e.getMessage());
     }
+  }
+
+  private static void loadTasks() {
+    try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(TASKS_FILE))) {
+      Object loadedTasks = ois.readObject();
+      if (loadedTasks instanceof Map) {
+        tasks.putAll((Map<String, List<Task>>) loadedTasks);
+      }
+      System.out.println("Tasks loaded successfully.");
+    } catch (FileNotFoundException e) {
+      System.out.println("No tasks file found. Starting with an empty task list.");
+    } catch (IOException | ClassNotFoundException e) {
+      System.out.println("Failed to load tasks: " + e.getMessage());
+    }
+  }
+
+  private static void saveTasks() {
+    try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(TASKS_FILE))) {
+      oos.writeObject(tasks);
+      System.out.println("Tasks saved successfully.");
+    } catch (IOException e) {
+      System.out.println("Failed to save tasks: " + e.getMessage());
+    }
+  }
+
 }

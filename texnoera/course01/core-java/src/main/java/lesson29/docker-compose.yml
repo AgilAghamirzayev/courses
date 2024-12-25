@@ -1,0 +1,18 @@
+version: '3.7'
+services:
+
+  postgres:
+    image: postgres
+    container_name: texnoera-postgres-container
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USERNAME: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: user-auths
+    volumes:
+      - db:/var/lib/postgresql/data
+
+volumes:
+  db:
