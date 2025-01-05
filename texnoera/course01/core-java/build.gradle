@@ -2,6 +2,7 @@ plugins {
     id 'java'
 }
 
+artifacts {"core-java"}
 group = 'az.texnoera'
 version = '1.0-SNAPSHOT'
 

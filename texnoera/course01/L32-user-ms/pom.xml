@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>az.texnoera</groupId>
-    <artifactId>user-ms</artifactId>
+    <artifactId>L32-user-ms</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
