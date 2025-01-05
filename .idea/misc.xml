@@ -9,6 +9,11 @@
       <list>
         <option value="$PROJECT_DIR$/texnoera/course01/user-ms/pom.xml" />
         <option value="$PROJECT_DIR$/texnoera/course01/jdbc-1/pom.xml" />
+        <option value="$PROJECT_DIR$/texnoera/course01/L32-user-ms/pom.xml" />
+        <option value="$PROJECT_DIR$/texnoera/course01/L33-user-ms/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/texnoera/course01/pom.xml" />
+        <option value="$PROJECT_DIR$/texnoera/pom.xml" />
       </list>
     </option>
   </component>
