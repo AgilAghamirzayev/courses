@@ -6,7 +6,7 @@ import lesson33.commons.bls.EmployeeSalaryCalculator;
 import lesson33.commons.dao.EmployeeDao;
 import lesson33.commons.ds.Employee;
 import lesson33.commons.ds.EmployeeSalary;
-import lesson33.commons.report.PdfSalaryReport;
+import lesson33.commons.report.XlsSalaryReport;
 
 class EmployeesSalariesReportService {
   void generateReport() {
@@ -16,7 +16,7 @@ class EmployeesSalariesReportService {
     EmployeeSalaryCalculator employeeSalaryCalculator = new EmployeeSalaryCalculator();
     List<EmployeeSalary> employeeSalaries = employeeSalaryCalculator.calculateSalaries(employees);
 
-    PdfSalaryReport pdfSalaryReport = new PdfSalaryReport();
-    pdfSalaryReport.writeReport(employeeSalaries);
+    XlsSalaryReport xlsSalaryReport = new XlsSalaryReport();
+    xlsSalaryReport.writeReport(employeeSalaries);
   }
 }

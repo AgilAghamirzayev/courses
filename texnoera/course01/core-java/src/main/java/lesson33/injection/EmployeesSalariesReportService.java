@@ -9,6 +9,7 @@ import lesson33.commons.ds.EmployeeSalary;
 import lesson33.commons.report.SalaryReport;
 
 class EmployeesSalariesReportService {
+//    @Autowired
     private final EmployeeDao employeeDao;
     private final EmployeeSalaryCalculator employeeSalaryCalculator;
     private final SalaryReport salaryReport;
