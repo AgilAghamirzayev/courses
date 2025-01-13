@@ -9,12 +9,13 @@ public class Test {
         .lastName("Aliyev")
         .build();
 
-    var p2 =Person1.builder()
+    Person1 build = Person1.builder()
         .name("Ali")
         .lastName("Aliyev")
         .email("aliyev@gmail.com")
         .age(11)
         .build();
+
 
   }
 }

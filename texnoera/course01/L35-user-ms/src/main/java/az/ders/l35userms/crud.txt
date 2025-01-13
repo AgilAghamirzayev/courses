@@ -1,0 +1,52 @@
+crud -> create, read, update, delete
+        POST    GET   PUT     DELETE
+
+
+localhost:8080/createUser -> bad practice
+localhost:8080/delete-user -> bad practice
+
+
+C -> localhost:8080/books -> POST -> 200, 201
+R -> localhost:8080/books -> GET -> 200
+      [
+        {
+            "id": 1,
+            "name": "Java",
+            "author": "James Gosling",
+            "category": "Education"
+        },
+        {
+            "id": 2,
+            "name": "Kotlin",
+            "author": "James Gosling",
+            "category": "Education"
+        }
+      ]
+
+R -> localhost:8080/books/{id} -> localhost:8080/books/1 -> GET -> 200, 404
+
+{
+            "id": 1,
+            "name": "Java",
+            "author": "James Gosling",
+            "category": "Education"
+}
+
+R -> localhost:8080/books?category="Education" -> GET -> 200
+      [
+        {
+            "id": 1,
+            "name": "Java",
+            "author": "James Gosling",
+            "category": "Education"
+        },
+        {
+            "id": 2,
+            "name": "Kotlin",
+            "author": "James Gosling",
+            "category": "Education"
+        }
+      ]
+
+U -> localhost:8080/books/{id} -> localhost:8080/books/1 -> PUT -> 200, 404
+D -> localhost:8080/books/{id} -> localhost:8080/books/1 -> DELETE -> 200, 404
