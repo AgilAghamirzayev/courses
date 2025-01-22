@@ -12,6 +12,14 @@
         <module name="L34-user-ms" />
         <module name="L32-user-ms" />
         <module name="jdbc-1" />
+        <module name="L36-user-ms" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.36/5a30490a6e14977d97d9c73c924c1f1b5311ea95/lombok-1.18.36.jar" />
+        </processorPath>
+        <module name="L37-ecommerce.main" />
       </profile>
     </annotationProcessing>
   </component>
@@ -21,6 +29,7 @@
       <module name="L33-user-ms" options="-parameters" />
       <module name="L34-user-ms" options="-parameters" />
       <module name="L35-user-ms" options="-parameters" />
+      <module name="L36-user-ms" options="-parameters" />
     </option>
   </component>
 </project>

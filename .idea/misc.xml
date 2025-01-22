@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/texnoera/course01/core-java" />
+    <file type="web" url="file://$PROJECT_DIR$/texnoera/course01/L37-ecommerce" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -16,6 +17,7 @@
         <option value="$PROJECT_DIR$/texnoera/pom.xml" />
         <option value="$PROJECT_DIR$/texnoera/course01/L34-user-ms/pom.xml" />
         <option value="$PROJECT_DIR$/texnoera/course01/L35-user-ms/pom.xml" />
+        <option value="$PROJECT_DIR$/texnoera/course01/L36-user-ms/pom.xml" />
       </list>
     </option>
   </component>
