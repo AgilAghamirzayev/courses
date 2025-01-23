@@ -8,9 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="L33-user-ms" />
-        <module name="L35-user-ms" />
         <module name="L34-user-ms" />
         <module name="L32-user-ms" />
+        <module name="L35-user-ms" />
         <module name="jdbc-1" />
         <module name="L36-user-ms" />
       </profile>
@@ -22,6 +22,9 @@
         <module name="L37-ecommerce.main" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="L38-ecommerce" target="21" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

@@ -10,6 +10,7 @@
     <modules>
         <module>texnoera</module>
         <module>texnoera/course01/L35-user-ms</module>
+        <module>texnoera/course01/L38-ecommerce</module>
     </modules>
 
 </project>
