@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/texnoera/course01/L39-ecommerce/L39-ecommerce.iml" filepath="$PROJECT_DIR$/texnoera/course01/L39-ecommerce/L39-ecommerce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/L39-ecommerce.main.iml" filepath="$PROJECT_DIR$/.idea/modules/L39-ecommerce.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/texnoera/course01/L40-relations/L40-relations.iml" filepath="$PROJECT_DIR$/texnoera/course01/L40-relations/L40-relations.iml" />
     </modules>
   </component>
 </project>

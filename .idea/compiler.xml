@@ -8,9 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="L33-user-ms" />
+        <module name="L35-user-ms" />
         <module name="L34-user-ms" />
         <module name="L32-user-ms" />
-        <module name="L35-user-ms" />
         <module name="jdbc-1" />
         <module name="L36-user-ms" />
       </profile>
@@ -19,7 +19,7 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.36/5a30490a6e14977d97d9c73c924c1f1b5311ea95/lombok-1.18.36.jar" />
         </processorPath>
-        <module name="L37-ecommerce.main" />
+        <module name="L39-ecommerce.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

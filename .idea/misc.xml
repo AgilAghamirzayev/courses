@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/texnoera/course01/core-java" />
     <file type="web" url="file://$PROJECT_DIR$/texnoera/course01/L37-ecommerce" />
+    <file type="web" url="file://$PROJECT_DIR$/texnoera/course01/L39-ecommerce" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
