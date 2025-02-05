@@ -20,6 +20,22 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/texnoera/course01/L40-relations" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/texnoera/course01/L40-relations" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/texnoera/course01/L41-jpa" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/texnoera/course01/L41-jpa" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/texnoera/course01/core-java" />
         <option name="gradleJvm" value="21" />
         <option name="modules">

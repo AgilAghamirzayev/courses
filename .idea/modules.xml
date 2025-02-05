@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/L39-ecommerce.main.iml" filepath="$PROJECT_DIR$/.idea/modules/L39-ecommerce.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/texnoera/course01/L40-relations/L40-relations.iml" filepath="$PROJECT_DIR$/texnoera/course01/L40-relations/L40-relations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/L41-jpa.main.iml" filepath="$PROJECT_DIR$/.idea/modules/L41-jpa.main.iml" />
     </modules>
   </component>
 </project>
