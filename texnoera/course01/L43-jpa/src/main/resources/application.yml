@@ -1,0 +1,36 @@
+server:
+  servlet:
+    session:
+      timeout: 5s
+  tomcat:
+    connection-timeout: 5s
+
+spring:
+  application:
+    name: jpa
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      max-lifetime: 10000
+      maximum-pool-size: 5
+      connection-timeout: 5000
+      idle-timeout: 10000
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: false
+    open-in-view: false
+
+logging:
+  level:
+    com:
+      zaxxer:
+        hikari: TRACE
+

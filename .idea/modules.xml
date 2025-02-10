@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/L39-ecommerce.main.iml" filepath="$PROJECT_DIR$/.idea/modules/L39-ecommerce.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/L41-jpa.main.iml" filepath="$PROJECT_DIR$/.idea/modules/L41-jpa.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/L43-jpa.main.iml" filepath="$PROJECT_DIR$/.idea/modules/L43-jpa.main.iml" />
     </modules>
   </component>
 </project>
