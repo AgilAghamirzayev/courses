@@ -44,6 +44,22 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/texnoera/course01/L44-middle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/texnoera/course01/L44-middle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/texnoera/course01/L45-liquibase-scheduler-async" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/texnoera/course01/L45-liquibase-scheduler-async" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/texnoera/course01/core-java" />
         <option name="gradleJvm" value="21" />
         <option name="modules">

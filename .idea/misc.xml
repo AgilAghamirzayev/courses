@@ -8,6 +8,8 @@
     <file type="web" url="file://$PROJECT_DIR$/texnoera/course01/L40-relations" />
     <file type="web" url="file://$PROJECT_DIR$/texnoera/course01/L41-jpa" />
     <file type="web" url="file://$PROJECT_DIR$/texnoera/course01/L43-jpa" />
+    <file type="web" url="file://$PROJECT_DIR$/texnoera/course01/L44-middle" />
+    <file type="web" url="file://$PROJECT_DIR$/texnoera/course01/L45-liquibase-scheduler-async" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
