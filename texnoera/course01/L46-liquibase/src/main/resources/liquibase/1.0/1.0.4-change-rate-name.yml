@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - changeSet:
+      id: change ratings table column
+      author: Agil Aghamirzayev
+      description: change ratings table column
+      changes:
+        - renameColumn:
+            columnDataType: int
+            newColumnName: rate
+            oldColumnName: rates
+            tableName: ratings

@@ -11,11 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/payment")
 public class PaymentController {
 
-  private final PaymentService paymentService;
-
   @PostMapping("/pay")
   public void transferMoney() {
-    paymentService.processPayment();
+
   }
 
 }

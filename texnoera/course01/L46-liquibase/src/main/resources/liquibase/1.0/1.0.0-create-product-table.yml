@@ -1,0 +1,39 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1-create-product-entity-table
+      author: Agil Aghamirzayev
+      changes:
+        - createTable:
+            tableName: product_entity
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: name
+                  type: VARCHAR(50)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: description
+                  type: TEXT
+              - column:
+                  name: price
+                  type: DECIMAL(19,2)
+              - column:
+                  name: active
+                  type: BOOLEAN
+              - column:
+                  name: image_url
+                  type: VARCHAR(255)
+              - column:
+                  name: date_created
+                  type: TIMESTAMP
+              - column:
+                  name: last_updated
+                  type: TIMESTAMP
+
