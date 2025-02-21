@@ -1,0 +1,21 @@
+flag:
+  umico:
+    enabled: false
+
+schedule:
+  umico:
+    delay:  10s
+
+app:
+  supported-languages:
+    - English
+    - Spanish
+    - French
+
+  employees:
+    - name: John Doe
+      age: 30
+      department: IT
+    - name: Jane Smith
+      age: 28
+      department: HR

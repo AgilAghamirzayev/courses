@@ -1,0 +1,26 @@
+flag:
+  umico:
+    enabled: false
+
+schedule:
+  umico:
+    delay:  10s
+
+app:
+  supported-languages:
+    - English
+    - Spanish
+    - French
+
+  database-config:
+    url: jdbc:mysql://localhost:3306/mydb
+    username: dev-user
+    password: dev
+
+  employees:
+    - name: John Doe
+      age: 30
+      department: IT
+    - name: Jane Smith
+      age: 28
+      department: HR

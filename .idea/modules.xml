@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/L37-ecommerce.main.iml" filepath="$PROJECT_DIR$/.idea/modules/L37-ecommerce.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/L39-ecommerce.main.iml" filepath="$PROJECT_DIR$/.idea/modules/L39-ecommerce.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/L40-relations.main.iml" filepath="$PROJECT_DIR$/.idea/modules/L40-relations.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/L41-jpa.main.iml" filepath="$PROJECT_DIR$/.idea/modules/L41-jpa.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/L43-jpa.main.iml" filepath="$PROJECT_DIR$/.idea/modules/L43-jpa.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/L44-middle.main.iml" filepath="$PROJECT_DIR$/.idea/modules/L44-middle.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/L45-liquibase-scheduler-async.main.iml" filepath="$PROJECT_DIR$/.idea/modules/L45-liquibase-scheduler-async.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/L46-liquibase.main.iml" filepath="$PROJECT_DIR$/.idea/modules/L46-liquibase.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/texnoera/course01/L47-config/L47-config.iml" filepath="$PROJECT_DIR$/texnoera/course01/L47-config/L47-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/L48-feign.main.iml" filepath="$PROJECT_DIR$/.idea/modules/L48-feign.main.iml" />
     </modules>
   </component>
 </project>

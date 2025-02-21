@@ -16,3 +16,22 @@ spring:
 
   liquibase:
     change-log: classpath:liquibase/changelog-master.yml
+
+
+app:
+  supported-languages:
+    - English
+    - Spanish
+    - French
+  database-config:
+    url: jdbc:mysql://localhost:3306/mydb
+    username: root
+    password: secret
+
+  employees:
+    - name: John Doe
+      age: 30
+      department: IT
+    - name: Jane Smith
+      age: 28
+      department: HR

@@ -1,0 +1,6 @@
+secret:
+  rates:
+    apikey: cd6f62dcad634d17b7a81ad9d01075ae
+
+url:
+  currency_exchange: https://api.currencyfreaks.com
