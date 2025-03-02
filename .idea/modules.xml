@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/L46-liquibase.main.iml" filepath="$PROJECT_DIR$/.idea/modules/L46-liquibase.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/texnoera/course01/L47-config/L47-config.iml" filepath="$PROJECT_DIR$/texnoera/course01/L47-config/L47-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/L48-feign.main.iml" filepath="$PROJECT_DIR$/.idea/modules/L48-feign.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/texnoera/course01/L51-spring-security/L51-spring-security.iml" filepath="$PROJECT_DIR$/texnoera/course01/L51-spring-security/L51-spring-security.iml" />
     </modules>
   </component>
 </project>
